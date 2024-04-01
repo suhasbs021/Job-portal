@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: url(pexels-hasan-albari-1229861.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+table{
+    padding: 0 10%;
+    margin: 40px auto 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    background-color: rgb(189, 16, 16);
+}
+tr th{
+    font-size: 14px;
+    font-weight: medium;
+    letter-spacing: 0.35px;
+    color: white;
+    opacity: 1;
+    padding: 12px;
+    vertical-align: top;
+    border: 1px solid white;
+
+
+}
+tr td{
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    font-weight: normal;
+    color: white;
+    background-color: rgb(44, 40, 40);
+    padding: 8px;
+    text-align: center;
+    border: 1px solid white;
+}
